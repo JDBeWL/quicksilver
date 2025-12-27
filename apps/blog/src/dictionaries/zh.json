@@ -1,0 +1,124 @@
+{
+    "navbar": {
+        "brand": "Quicksilver",
+        "about": "关于",
+        "write": "写作",
+        "dashboard": "仪表盘",
+        "login": "登录",
+        "register": "注册",
+        "logout": "退出登录"
+    },
+    "home": {
+        "hero_title": "Powered by Quicksilver Core",
+        "hero_desc": "灵感，塑你所想。",
+        "read_more": "阅读更多",
+        "no_posts": "暂无文章。成为第一个写文章的人！"
+    },
+    "auth": {
+        "login": {
+            "title": "欢迎回来",
+            "subtitle": "输入您的邮箱以登录您的账户",
+            "email_label": "账户",
+            "password_label": "密码",
+            "submit": "登录",
+            "submitting": "登录中...",
+            "no_account": "还没有账号？",
+            "register_link": "注册"
+        },
+        "register": {
+            "title": "创建账号",
+            "subtitle": "在下方输入您的邮箱以创建账号",
+            "name_label": "姓名",
+            "email_label": "邮箱",
+            "password_label": "密码",
+            "confirm_password_label": "确认密码",
+            "submit": "创建账号",
+            "submitting": "创建中...",
+            "has_account": "已有账号？",
+            "login_link": "登录"
+        },
+        "register_disabled": {
+            "title": "注册已关闭",
+            "desc": "这是一个个人博客，不开放公开注册。",
+            "owner_desc": "如果您是所有者，请使用 CLI 创建您的管理员账户。",
+            "back_login": "返回登录"
+        }
+    },
+    "common": {
+        "back_home": "返回首页",
+        "not_found": {
+            "title": "页面未找到",
+            "desc": "您正在寻找的页面可能已被移除、更名或暂时无法访问。"
+        }
+    },
+    "writing": {
+        "edit_title": "编辑文章",
+        "create_title": "创建新文章",
+        "title_label": "标题",
+        "slug_label": "别名 (URL 友好)",
+        "content_label": "内容 (Markdown)",
+        "publish_label": "立即发布",
+        "update_button": "更新文章",
+        "create_button": "创建文章",
+        "preview_label": "预览",
+        "nothing_to_preview": "暂无预览内容",
+        "tips": [
+            "使用 ```language 创建代码块",
+            "使用 **粗体** 或 *斜体* 强调文本",
+            "使用 # ## ### 创建标题",
+            "试试MDX组件增强你的文章",
+            "使用 > 创建引用块",
+            "插入图片 ![描述](链接)"
+        ],
+        "mdx_guide": {
+            "title": "MDX组件使用说明：",
+            "chart_example": "图表：<InteractiveChart title='标题' data={JSON.stringify([{name:'月份', total: 数值}])} />",
+            "modal_example": "模态框：<CustomModal title='标题' triggerText='按钮文本'>内容</CustomModal>"
+        },
+        "toolbar": {
+            "bold": "粗体",
+            "italic": "斜体",
+            "link": "链接",
+            "h1": "标题 1",
+            "h2": "标题 2",
+            "h3": "标题 3",
+            "list": "列表",
+            "quote": "引用",
+            "code": "代码块",
+            "chart": "图表",
+            "modal": "模态框"
+        }
+    },
+    "modal": {
+        "close": "关闭"
+    },
+    "post": {
+        "edit": "编辑",
+        "anonymous": "匿名"
+    },
+    "dashboard": {
+        "stats": {
+            "total_posts": "文章总数",
+            "published": "已发布",
+            "drafts": "草稿",
+            "lifetime_entries": "累计创作",
+            "visible_world": "已展示给世界",
+            "works_progress": "创作进行中"
+        },
+        "empty": {
+            "title": "暂无文章",
+            "desc": "在 Quicksilver 开启你的写作之旅。"
+        },
+        "status": {
+            "published": "已发布",
+            "draft": "草稿"
+        }
+    },
+    "about": {
+        "title": "关于 Quicksilver",
+        "description": "Quicksilver是一个为极致灵活性和可扩展性而设计的博客引擎。由Quicksilver Core提供核心的文章编辑、发布、用户管理等功能。所有其他功能都由强大的插件系统驱动，让您能够完全按照自己的设想打造平台。",
+        "system_status": "系统状态",
+        "status_active": "运行中",
+        "status_maintenance": "维护中"
+    }
+}

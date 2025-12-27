@@ -1,0 +1,124 @@
+{
+    "navbar": {
+        "brand": "Quicksilver",
+        "about": "About",
+        "write": "Write",
+        "dashboard": "Dashboard",
+        "login": "Login",
+        "register": "Get Started",
+        "logout": "Logout"
+    },
+    "home": {
+        "hero_title": "Powered by Quicksilver Core",
+        "hero_desc": "Shape your story, your way. ",
+        "read_more": "Read More",
+        "no_posts": "No posts found. Be the first to write one!"
+    },
+    "auth": {
+        "login": {
+            "title": "Welcome back",
+            "subtitle": "Enter your email to sign in to your account",
+            "email_label": "Account",
+            "password_label": "Password",
+            "submit": "Sign in",
+            "submitting": "Signing in...",
+            "no_account": "Don't have an account?",
+            "register_link": "Register"
+        },
+        "register": {
+            "title": "Create an account",
+            "subtitle": "Enter your email below to create your account",
+            "name_label": "Name",
+            "email_label": "Email",
+            "password_label": "Password",
+            "confirm_password_label": "Confirm Password",
+            "submit": "Create account",
+            "submitting": "Creating account...",
+            "has_account": "Already have an account?",
+            "login_link": "Login"
+        },
+        "register_disabled": {
+            "title": "Registration Disabled",
+            "desc": "This is a personal blog. Public registration is not allowed.",
+            "owner_desc": "If you are the owner, please use the CLI to create your admin account.",
+            "back_login": "Back to Login"
+        }
+    },
+    "common": {
+        "back_home": "Back to Home",
+        "not_found": {
+            "title": "Page Not Found",
+            "desc": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable."
+        }
+    },
+    "writing": {
+        "edit_title": "Edit Post",
+        "create_title": "Create New Post",
+        "title_label": "Title",
+        "slug_label": "Slug (URL friendly)",
+        "content_label": "Content (Markdown)",
+        "publish_label": "Publish immediately",
+        "update_button": "Update Post",
+        "create_button": "Create Post",
+        "preview_label": "Preview",
+        "nothing_to_preview": "Nothing to preview",
+        "tips": [
+            "Use ```language for code blocks",
+            "Use **bold** or *italic* for emphasis",
+            "Use # ## ### for headings",
+            "Try MDX components to enhance your post",
+            "Use > for quotes",
+            "Insert images with ![description](link)"
+        ],
+        "mdx_guide": {
+            "title": "MDX Component Usage Guide:",
+            "chart_example": "Chart: <InteractiveChart title='Title' data={JSON.stringify([{name:'Month', total: value}])} />",
+            "modal_example": "Modal: <CustomModal title='Title' triggerText='Button Text'>Content</CustomModal>"
+        },
+        "toolbar": {
+            "bold": "Bold",
+            "italic": "Italic",
+            "link": "Link",
+            "h1": "Heading 1",
+            "h2": "Heading 2",
+            "h3": "Heading 3",
+            "list": "List",
+            "quote": "Quote",
+            "code": "Code Block",
+            "chart": "Chart",
+            "modal": "Modal"
+        }
+    },
+    "modal": {
+        "close": "Close"
+    },
+    "post": {
+        "edit": "Edit",
+        "anonymous": "Anonymous"
+    },
+    "dashboard": {
+        "stats": {
+            "total_posts": "Total Posts",
+            "published": "Published",
+            "drafts": "Drafts",
+            "lifetime_entries": "Lifetime entries",
+            "visible_world": "Visible to the world",
+            "works_progress": "Works in progress"
+        },
+        "empty": {
+            "title": "No posts yet",
+            "desc": "Start your writing journey with Quicksilver."
+        },
+        "status": {
+            "published": "Published",
+            "draft": "Draft"
+        }
+    },
+    "about": {
+        "title": "About Quicksilver",
+        "description": "Quicksilver is a blog engine engineered for maximum flexibility and extensibility. At its heart, Quicksilver Core provides essential features such as article editing, publishing, and user management. All other functionality is powered by a robust plugin system, empowering you to build the platform exactly as you envision it.",
+        "system_status": "System Status",
+        "status_active": "Active",
+        "status_maintenance": "Maintenance"
+    }
+}
